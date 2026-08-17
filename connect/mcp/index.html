@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokerhud — Connect via MCP</title>
+  <meta name="description" content="Connect to Pokerhud via the Model Context Protocol. Poker analysis + odds calculation + hand evaluation.">
+  <link rel="canonical" href="https://pokerhud.ai/connect/mcp">
+  <meta name="theme-color" content="#c9a84c">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Pokerhud MCP","applicationCategory":"DeveloperApplication","operatingSystem":"MCP-compatible","description":"Connect to Pokerhud via the Model Context Protocol."}</script>
+  <style>
+    body { font-family: 'Inter', -apple-system, sans-serif; background: #070b14; color: #f5f5f5; margin: 0; padding: 24px; line-height: 1.55; }
+    h1 { color: #c9a84c; font-size: 2rem; margin: 0 0 16px; }
+    pre { background: #111827; border: 1px solid #26263a; border-radius: 8px; padding: 16px; overflow-x: auto; color: #f5f5f5; font-family: 'Menlo', monospace; font-size: 0.85rem; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .card { background: #111827; border: 1px solid #26263a; border-radius: 12px; padding: 24px; margin: 16px 0; }
+    .badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 700; background: #c9a84c; color: #070b14; margin-right: 6px; }
+    .stripe-cta { display: inline-block; background: #c9a84c; color: #070b14; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: 700; margin: 8px 6px 0 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pokerhud — Connect via MCP</h1>
+    <p><span class="badge">MCP</span><span class="badge">OpenAPI</span><span class="badge">Sovereign</span></p>
+
+    <div class="card">
+      <h2>Quick start</h2>
+      <p>Add Pokerhud to your MCP-compatible client (Claude Desktop, Cursor, Windsurf, etc.):</p>
+      <pre>add pokerhud
+  server: pokerhud.ai
+  tools: poker-analysis-mcp, odds-calculator-mcp</pre>
+    </div>
+
+    <div class="card">
+      <h2>Available tools</h2>
+      <ul><li><code>poker-analysis-mcp</code></li>
+<li><code>odds-calculator-mcp</code></li></ul>
+    </div>
+
+    <div class="card">
+      <h2>REST API (alternative)</h2>
+      <pre>curl -s https://pokerhud.ai/api/health | jq</pre>
+      <p><a href="/openapi.json" style="color:#c9a84c;">OpenAPI spec →</a></p>
+    </div>
+
+    <div class="card">
+      <h2>Subscribe</h2>
+      <p>Get the verified sovereign attestation + access to all pokerhud tools:</p>
+      <a class="stripe-cta" href="https://buy.stripe.com/9B67sNeoIcMObEx56o8k91S">Sovereign £29/mo</a>
+      <a class="stripe-cta" href="https://buy.stripe.com/eVq14p1BWcMO4c59mE8k91T">Pro £199/mo</a>
+      <a class="stripe-cta" href="https://buy.stripe.com/28E7sNdkEeUW5g96as8k91U">Enterprise £1,499/mo</a>
+    </div>
+
+    <p style="margin-top: 32px;">
+      <a href="/" style="color:#c9a84c;">← Back to Pokerhud</a>
+    </p>
+  </div>
+</body>
+</html>
